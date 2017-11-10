@@ -13,5 +13,8 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
 
