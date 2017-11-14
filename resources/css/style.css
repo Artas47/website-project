@@ -161,6 +161,7 @@ h3{
 /* --------------------------------------------------- */
 
 header {
+     background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -338,6 +339,90 @@ header {
     height: 50px;
     width: auto;
     margin-right: 15px;
+}
+
+/* --------------------------------------------------- */
+/* CITIES */
+/* --------------------------------------------------- */
+
+
+.section-cities img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+
+.city-feature{
+    margin-bottom: 8px;
+    
+}
+
+.city-feature i{
+    color: #e67e22;
+    margin-right: 7px;
+}
+
+.city-feature a:link,
+.city-feature a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1.5px solid #e67e22;
+    transition: border-bottom 0.2s;
+    
+}
+
+.city-feature a:hover,
+.city-feature a:active{
+    color: #555;
+    border-bottom: 0px solid transparent;
+    
+    
+}
+/* --------------------------------------------------- */
+/* TESTIMONIALS */
+/* --------------------------------------------------- */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+    
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 
